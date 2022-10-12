@@ -6,11 +6,28 @@ function MainContent(){
         <main>
             <h1>Equilibrium #3429</h1>
             <p>Our equilibrium collection promotes balance and calm</p>
-        
 
             <section>
-                <ul className="list--one">
-                    <li>
+                <div className='section--one'>
+                    <img src={ethereum}
+                        alt ='svg ethereum img'
+                        className='list--svg--img'
+                    />
+                    <p className='section--text'> 0.041 ETH </p>
+                </div>
+                
+                <div>
+                    <img src={clock}
+                        alt ='svg clock img'
+                        className='list--svg--img'
+                    />
+                    <p className=' text--two'> 3 days left</p>
+                </div>
+                
+
+
+                {/* <ul className="list--one">
+                    <li className='img--wrap'>
                         <img src={ethereum}
                         alt ='svg ethereum img'
                         className='list--svg--img'/>
@@ -19,14 +36,14 @@ function MainContent(){
                 </ul>
 
                 <ul className="list--one">
-                    <li> 
+                    <li > 
                         <img src={clock}
                             alt ='svg clock img'
                             className='list--svg--img'
                         />
                     </li>
                     <li className='list--item--four'> 3 days </li>
-                </ul>
+                </ul> */}
             </section>
         </main>
     )

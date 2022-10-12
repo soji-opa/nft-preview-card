@@ -1,8 +1,16 @@
+import soji from '../images/soji.jpeg'
+
 function Footer(){
     return(
         <div className="footer">
-            <p>image</p>
-            <p> Creation of Hegemon</p>
+            
+            <img
+                src={soji}
+                alt='footer-img'
+                className='footer--img'
+            />
+            
+            <p className='footer--text'> Creation of <span>Hegemon</span></p>
         </div>
     )
 }
