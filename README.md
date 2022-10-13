@@ -89,4 +89,4 @@ I gained basic understading of implementing/positioning elements, using absolute
 
 ## Acknowledgments
 
-I am very grateful to[Smug](http://portfolio-fawn-zeta.vercel.app/) & [Openwell](https://github.com/openwell) for always making time out of their busy schedules to see to my coding challenges and providing me with extra motivation.
+I am very grateful to [Smug](https://github.com/theadusamuel) & [Openwell](https://github.com/openwell) for always making time out of their busy schedules to see to my coding challenges and providing me with extra motivation.
