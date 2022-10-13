@@ -1,10 +1,11 @@
 # Frontend Mentor - NFT preview card solution
 
-This is a solution to the [React section 1 solo project](https://scrimba.com/learn/learnreact/react-section-1-solo-project-coce646e88eea46f91af43ca4)
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
+  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -15,7 +16,12 @@ This is a solution to the [React section 1 solo project](https://scrimba.com/lea
 
 ## Overview
 
-- This challenge helped me grapple with my basic understanding of react and layout
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
 ### Screenshot
 
@@ -23,7 +29,7 @@ This is a solution to the [React section 1 solo project](https://scrimba.com/lea
 
 ### Links
 
-- [Digital business card](https://digital-business-card-sandy.vercel.app/)
+- [NFT preview card](https://nft-preview-card-smoky.vercel.app/)
 
 ### Built with
 
@@ -32,6 +38,45 @@ This is a solution to the [React section 1 solo project](https://scrimba.com/lea
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library (This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app))
+
+### What I learned
+
+I gained basic understading of implementing/positioning elements, using absolute/relative, as well as centering said element. @smug took time to explain to me.
+
+```css
+.header--wrap {
+	position: relative;
+	cursor: pointer;
+}
+
+.img--overlay {
+	background-color: var(--clr-accent);
+	border-radius: 10px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+.img--overlay img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.header--wrap:hover .img--overlay {
+	opacity: 0.5;
+}
+
+.header--img {
+	border-radius: 10px;
+	vertical-align: bottom;
+}
+```
 
 ### Useful resources
 
@@ -44,4 +89,4 @@ This is a solution to the [React section 1 solo project](https://scrimba.com/lea
 
 ## Acknowledgments
 
-I am very grateful to Smug & Openwell for always making time out of their busy schedules to see to my coding challenges and providing me with extra motivation.
+I am very grateful to[Smug](http://portfolio-fawn-zeta.vercel.app/) & [Openwell](https://github.com/openwell) for always making time out of their busy schedules to see to my coding challenges and providing me with extra motivation.
