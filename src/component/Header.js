@@ -8,6 +8,13 @@
             src={equilibrium}
             alt ='header img'
             className='header--img'/>
+        
+            <div className='img--overlay'>
+                <img
+                    src={eyes}
+                    alt='eyes img'
+                />
+            </div>
 
             {/* <div className='image--active'>
                 <img

@@ -10,7 +10,7 @@ function Footer(){
                 className='footer--img'
             />
             
-            <p className='footer--text'> Creation of <span>Hegemon</span></p>
+            <p className='footer--text'> Creation of <a href='#'>Hegemon</a></p>
         </div>
     )
 }
